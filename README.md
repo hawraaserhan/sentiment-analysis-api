@@ -1,5 +1,19 @@
 # sentiment-analysis-api
+# Build and Start the Containers:
 
+# Open a terminal in the project-root directory and run:
+```bash
+docker-compose up --build
+
+```
+This command builds the images for both services (if not already built) and starts the containers.
+# Stopping the Containers:
+
+To stop the running containers, press Ctrl+C in the terminal. To remove the containers (and free up network resources), run:
+```bash
+docker-compose down
+
+```
 # How to Run the Express.js Server
 
 ## Initialize the Node.js project:
